@@ -3,12 +3,23 @@
             font-family: Arial, sans-serif;
             text-align: center;
         }
-        .container {
-            margin-top: 50px;
+        .container {            
+                width: 200px;
+                height: 100px;
+                background-color: #f0f0f0;
+                padding: 20px; /* Adding padding */
+                border: 2px solid #333; /* Adding a border */
+                margin: 20px; /* Adding margin for spacing */
         }
         h1 {
             font-size: 24px;
         }
         p {
             font-size: 18px;
+        }
+        a:hover {
+            color: #0078d4; /* Color when hovered over */
+        }
+        .Game{
+            color: rgb(234, 17, 17);
         }
