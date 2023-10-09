@@ -19,6 +19,7 @@
                 border: 2px solid #333; /* Adding a border */
                 margin: 20px; /* Adding margin for spacing */
         }
+        
         h1 {
             font-size: 24px;
         }
@@ -28,6 +29,6 @@
         a:hover {
             color: #131414; /* Color when hovered over */
         }
-        .Game{
+        #Game{
             color: rgb(234, 17, 17);
         }
