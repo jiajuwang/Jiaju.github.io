@@ -13,8 +13,16 @@
         }
     
         .container{
-            display:inline;
+            display: flex; /* Use Flexbox to arrange elements in a row */
+            justify-content: center; /* Center align the content horizontally */
+            align-items: flex-start; /* Align items to the top vertically */
         }
+
+        .photo {
+            width: 300px;
+            margin: 20px; /* Add margin to separate text and photo */
+        }
+        
         h1 {
             font-size: 24px;
         }
